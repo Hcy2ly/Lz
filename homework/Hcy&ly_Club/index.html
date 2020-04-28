@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hcy&ly_Club  Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/font-awesome.css" rel="stylesheet">   <!-- font-awesome icons --> 
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
+<!-- //Custom Theme files -->  
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
+
+</head>
+<body> 
+<!-- navigation -->
+			<div class="top-nav w3-agiletop">
+				<div class="container">
+					<div class="navbar-header w3llogo">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						Menu
+						</button>
+						<h1><a href="index.html">Hcy&ly_Club</a></h1> 
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div class="w3menu navbar-left">
+							<ul class="nav navbar">
+								<li><a href="index.html" class="active">Hcy&ly_Club</a></li>
+								<li><a href="about.html">关于我们</a></li> 
+								<li><a href="typo.html">分类</a></li>
+								<li><a href="contact.html">交流建议</a></li>
+							</ul>
+						</div>
+						<div class="w3ls-bnr-icons social-icon navbar-right">
+							<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a> 
+							<a href="#" class="social-button dribbble"><i class="fa fa-dribbble"></i></a> 
+						</div> 
+						<div class="clearfix"> </div>  
+					</div>
+				</div>	
+			</div>	
+			<!-- //navigation -->
+
+	<!-- banner -->
+	<div class="w3ls-banner">
+		<!-- banner-text -->
+		<div class="banner-text"> 
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<h2>welcome to our big home!</h2>
+						<h5>欢迎来到'华晨宇-化成雨'🔥社团~</h5>
+					</li>
+					<li>
+						<h3>《 寻 》</h3>
+						<h5>枕边没有风浪怎么我们会跌宕 摇晃</h5>
+						<h5>伸手不见月光怎么繁星能闪耀 光芒</h5>
+					</li>
+					<li>
+						<h3>《 山海 》</h3>
+						<h5>我看着 天真的我自己</h5>
+						<h5>出现在 没有我的故事里</h5>
+						<h5>等待着 我的回应</h5>
+					</li>
+				</ul>
+			</div>    
+		</div> 
+		<!-- //banner-text -->  
+	</div>	
+
+	
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<!-- js --> 
+	<!-- FlexSlider --> 
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	</script>
+	<!-- End-slider-script -->
+	<script src="js/SmoothScroll.min.js"></script> 
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->	
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->  	
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

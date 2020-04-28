@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>史上最菜🤣学生社团管理系统</title>
+    <link rel="stylesheet" type="text/css" href="./font.css" />
+    <link rel="stylesheet" href="./common.css">
+</head>
+<body class="skin-purple sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header"><!--头部-->
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <!-- <span class="logo-mini"><i class="fa fa-leaf fg-4x "></i> </span> -->
+                <!-- logo for regular state and mobile devices -->
+                <!-- <span class="logo-lg">网站后台<b>管理系统</b></span> -->
+                <span class="logo-lg"><img src="./images/logo.png" alt="学生社团管理系统" width="150" height="50"></span>
+            </a>
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="javascript:;" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">                    
+                    <ul class="nav navbar-nav">
+                            <li class="dropdown messages-menu">
+                              <a href="./Hcy&ly_Club/index.html" class="dropdown-toggle">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="label label-success"></span>社团登录
+                              </a>
+                                </li>
+                            </li>                
+            
+                            <li class="dropdown ">
+                                <a href="./login/demo.html" class="dropdown-toggle" >
+                                <img class="user-image" alt="头像" src="./images/head_0_44.jpg">
+                                登录 </a>
+                            </li>
+                            <li><a href="./Help/help.html">帮助</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <aside class="main-sidebar">
+          <!-- sidebar: style can be found in sidebar.less -->
+          <section class="sidebar">
+            <form class="sidebar-form" method="get" action="./Help/help.html">
+              <div class="input-group">
+                <input type="text" placeholder="请输入要查找的内容..." class="form-control" name="q">
+                <span class="input-group-btn">
+                  <button class="btn btn-flat" id="search-btn" name="search" type="submit"><i class="fa fa-search"></i></button>
+                </span>
+              </div>
+            </form>
+            <!-- Sidebar Menu -->
+            <ul class="sidebar-menu">
+              <li class="header">系统菜单</li>
+              <!-- Optionally, you can add icons to the links -->
+              <li>
+                  <a href="./Hcy&ly_Club/index.html">
+                    <i class="fa fa-th-list"></i> <span>社团简介</span> 
+                                        </a>
+                                                                            </li><li>
+                  <a href="./Hcy&ly_Club/index.html">
+                    <i class="fa fa-list-alt"></i> <span>社团管理</span> 
+                                        </a>
+                                                                            </li><li>
+                  <a href="./Hcy&ly_Club/index.html">
+                    <i class="fa fa-video-camera"></i> <span>物资管理</span> 
+                                        </a>
+                                                                            </li><li>
+                  <a href="./Hcy&ly_Club/index.html">
+                    <i class="fa fa-building"></i> <span>活动管理</span> 
+                                        </a>
+                                                                            </li><li>
+                  <a href="./Hcy&ly_Club/index.html">
+                    <i class="fa fa-comments"></i> <span>成员管理</span> 
+                                        </a>
+                                                                            </li><li>
+                  <a href="./Hcy&ly_Club/index.html">
+                    <i class="fa fa-download"></i> <span>信息通知</span> 
+                                        </a>
+                                                                            </li>
+                <li class="treeview active">
+                  <a href="#">
+                    <i class="fa fa-institution "></i> <span>个人设置</span> 
+                    <i class="fa fa-angle-left pull-right"></i>                    </a>
+                  <ul class="treeview-menu">                    
+                    <li><a href="./Hcy&ly_Club/index.html"><i class="fa fa-edit"></i> 修改资料</a></li>
+                    <li><a href="./Hcy&ly_Club/index.html"><i class="fa fa-photo"></i> 设置头像</a></li>
+                    <li><a href="./Hcy&ly_Club/index.html"><i class="fa fa-key"></i> 修改密码</a></li>
+                    <li><a href="./Hcy&ly_Club/index.html"><i class="fa fa-envelope"></i> 我的信息</a></li>                    
+                  </ul>                  
+                </li>                
+            </ul><!-- /.sidebar-menu -->
+          </section>
+          <!-- /.sidebar -->
+        </aside>
+        
+        <div class="content-wrapper" style="min-height: 534px;"><!--内容容器-->
+            <section class="content-header"><!--页头,包括标记，和导航-->
+              <h1><i class="fa fa-file"></i> 首页</h1>
+            </section><!--end .content-header-->
+
+            <section class="content">            
+              <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="info-box">
+                    <span class="info-box-icon bg-aqua"><i class="fa fa-cubes"></i></span>
+                    <div class="info-box-content">
+                      <span class="info-box-number">积分</span>
+                      <span class="info-box-text text-muted">【社团名】：</span>
+                    </div><!-- /.info-box-content -->
+                  </div><!-- /.info-box -->
+                </div><!-- /.col -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="info-box">
+                    <span class="info-box-icon bg-red"><i class="fa fa-history"></i></span>
+                    <div class="info-box-content">
+                      <span class="info-box-number">管理</span>
+                      <span class="info-box-text text-muted">活动、人员、物资、社团结构</span>
+                    </div><!-- /.info-box-content -->
+                  </div><!-- /.info-box -->
+                </div><!-- /.col -->
+        
+                <!-- fix for small devices only -->
+                <div class="clearfix visible-sm-block"></div>
+        
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="info-box">
+                    <span class="info-box-icon bg-green"><i class="fa fa-support"></i></span>
+                    <div class="info-box-content">
+                      <span class="info-box-number">考勤</span>
+                      <span class="info-box-text text-muted">缺勤：</span>
+                    </div><!-- /.info-box-content -->
+                  </div><!-- /.info-box -->
+                </div><!-- /.col -->
+                <!-- <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="info-box">
+                    <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+                    <div class="info-box-content">
+                      <span class="info-box-text">New Members</span>
+                      <span class="info-box-number">2,000</span>
+                    </div>/.info-box-content
+                  </div>/.info-box
+                </div>/.col -->
+              </div>
+              
+              <div class="box box-primary">
+                <div class="box-header with-border">
+                  <h3 class="box-title"><i class="fa fa-plus-square"></i> <b>信息提醒</b></h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <div class="col-md-6 col-sm-6 col-xs-12" style="font-size: 16px;">
+                  </div> ****** >_< ******
+                  <table class="table">
+                <tbody>
+                  <tr>
+                    <th><span >最新社团出炉 <b style="color:rgb(230, 55, 11)">置顶</b></span></th>
+                    <td><a href="#" target="_blank" class="btn btn-block btn-primary" >查看详情</a></td>
+                  </tr>
+                  <tr>
+                    <th><span>听说有个club狠'懂你'(> .<)</span></th>
+                    <td><a href="#" target="_blank" class="btn btn-block btn-primary">查看详情</a></td>
+                  </tr>
+                  </tbody>
+          </table>
+          <hr>                         
+      </div>
+
+      <div class="wrap">
+          <h1>听妈妈的话 - 周杰伦</h1>
+          <p>学习累了，放松一下(^ - ^)</p>
+          <div class="main">
+              <canvas id="canvas"></canvas>
+              <!-- canvas的弹幕效果还没做出来，还差一些js文件= =来不及想了= = -->
+              <video src="mv.mp4" id="video" controls width="720" height="480"></video>
+          </div>
+          <div class="content-video">
+              <input type="text" id="text" />
+              <input type="button" id="btn" value="发弹幕" />
+              <input type="color" id="color" />
+              <input type="range" id="range" max="40" min="20" />
+          </div>
+      </div> 
+              </div>
+            </section><!-- /.content -->
+        </div>
+        <footer class="main-footer text-right">
+            <!-- To the right -->
+            <div class="pull-right hidden-xs">
+             <!--  Anything you want -->
+            </div>
+            <!-- Default to the left -->
+            <span class="text-muted">Copyright © 2018 <img src="./images/logo.png" alt=学生社团管理系统> 史上最菜学生社团管理系统</span>
+          </footer>
+          <a id="totop" style="display: block;"> </a>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/2.1.2/jquery.min.js"></script>
+    <script>
+    $('.sidebar-toggle').click(function() {
+      // console.log('fdfdf')
+      var ml = $('.content-wrapper').css('margin-left');
+      if (parseInt(ml) == 0) {
+        $('.main-sidebar').css('transform', 'translate(0px)');
+        $('.content-wrapper').css('margin-left', '230px');
+      }
+      else {
+        // $('.main-sidebar').css('transform', 'translate(0px)');
+        $('.main-sidebar').css('transform', 'translate(-230px)');
+        $('.content-wrapper').css('margin-left', '0px');
+      }
+    })
+    
+    </script>
+</body>
+</html>
